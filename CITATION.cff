@@ -1,0 +1,11 @@
+```yaml
+cff-version: 1.2.0
+message: "If you use this code, please cite as below."
+authors:
+  - family-names: Xu
+    given-names: Victor
+title: "REDQ Implementation for Unity ML-Agents Crawler Environment"
+version: 1.0.0
+date-released: 2025-10-19
+url: "https://github.com/<your-username>/<your-repo-name>"
+license: MIT
