@@ -23,8 +23,8 @@ Actions: 20 continuous actions, corresponding to target rotations for joints.
 
 With a benchmark mean reward of 3000.
 
-This model aims to break through the benchmark mean reward using newer architecture from the traditional SAC / PPO. 
-
+This model aims to break through the benchmark mean reward using newer architecture from the traditional SAC / PPO,
+along with custom hyperparameters and normalization.
 
 ### Architecture
 The model is a REDQ implementation with a 512 512 256 256 2 Actor and a 256 512 256 1 Critic.
