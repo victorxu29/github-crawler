@@ -8,18 +8,23 @@
 
 This is a REDQ implementation of the popular ml-agents crawler env as listed here : 
 https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/Learning-Environment-Examples.html#crawler
-and the REDQ paper: https://arxiv.org/abs/2101.05982
-From the docs the ml-agents crawler env is 
+and the REDQ paper: https://arxiv.org/abs/2101.05982.
+
+From the docs the ml-agents crawler env has reward function:
+
 The reward function is now geometric meaning the reward each step is a product of all the rewards instead of a sum, this helps the agent try to maximize all rewards instead of the easiest rewards.
 Body velocity matches goal velocity. (normalized between (0,1))
 Head direction alignment with goal direction. (normalized between (0,1))
-and 
+
+and takes in an obs of:
+
 Vector Observation space: 172 variables corresponding to position, rotation, velocity, and angular velocities of each limb plus the acceleration and angular acceleration of the body.
 Actions: 20 continuous actions, corresponding to target rotations for joints.
-with a benchmark mean reward of 3000.
 
-This model aims to break through the benchmark mean reward using newer architecture from the traditional SAC / PPO. 
+With a benchmark mean reward of 3000.
 
+This model aims to break through the benchmark mean reward using newer architecture from the traditional SAC / PPO,
+along with custom hyperparameters and normalization.
 
 ### Architecture
 The model is a REDQ implementation with a 512 512 256 256 2 Actor and a 256 512 256 1 Critic.
