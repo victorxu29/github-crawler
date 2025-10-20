@@ -47,7 +47,7 @@ Tried with both the redq hyperparameters as listed in the paper above (target_en
 | UTD ratio: 35 | UTD ratio: 20  |
 | Ensemble size: 10  | Ensemble size: 10  |
 | Hidden layers: 4  | Hidden layers: 2  |
-| Target Entropy: -action_dim  | Target Entropy: -action_dim * 0.3  |
+| Target Entropy: -action_dim * 0.3  | Target Entropy: -action_dim |
 
 Standard hyperparameters tended to plateau at around 1800 - 2000, while the custom hyperparameters were able to break through to 3000 after some tweaking.
 
