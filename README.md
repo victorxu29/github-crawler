@@ -54,7 +54,7 @@ Standard hyperparameters tended to plateau at around 1800 - 2000, while the cust
 
 <img width="700" height="500" alt="ChartGo_20251019182715" src="https://github.com/user-attachments/assets/7a4fa017-b539-4cba-ab4f-bf63ebd12c0d" />
 
-
+![](https://media.giphy.com/media/CXQfELbVoAo46pQZ0p/giphy.gif)
 
 ### Usage
 Install conda 
